@@ -1,0 +1,27 @@
+fun main () {
+    var nome: String = "Johny Testa"
+var idade: Int = 24
+    var salarioBruto: Int = 1500
+    var mesesTrabalho: Int = 12
+    var produtosComp: Int = 10
+//-------------------------CONTAS----------------------------------------------
+
+    var salarioAnual = salarioBruto * mesesTrabalho
+    print(salarioAnual)
+    var salarioBrutoAnual = salarioBruto * 12
+    var salarioLiquido = salarioBruto - 500
+    var descontoAnual = salarioLiquido * 12
+    var salarioFinal = salarioBrutoAnual - descontoAnual
+   var precoProduto: Int = 200
+    var valorGastoProduto = produtosComp * 200
+
+    println("Nome: $nome.")
+    println("Idade: $idade.")
+    println("salarioBruto: $salarioBruto.")
+    println("Meses: $mesesTrabalho.")
+    println("Produtos comprados: $produtosComp.")
+    println("Salário anual bruto: $salarioAnual.")
+    println("Salário Liquido: $salarioLiquido.")
+    println("média gasta com produtos: $valorGastoProduto.")
+
+}
