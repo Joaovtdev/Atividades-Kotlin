@@ -1,0 +1,30 @@
+fun main() {
+
+    var nome: String = "João"
+    var idade: Int = 23
+    var altura: Double = 1.76
+    var EStudante: Boolean = true
+    var idadesoma: Int = 5
+
+    var nome2: String = "Cláudio"
+    var idade2: Int = 46
+    var altura2: Double = 1.89
+    var Estudante2: Boolean = false
+    var somadeidades: Int
+     var alturaf2: Double
+
+ // Cálculos
+     somadeidades = idade + idade2
+    alturaf2 = altura * 2
+
+
+    println("Nome: $nome2")
+    println("Idade: $idade2")
+    println("Altura: $altura2")
+    println("É estudante: $Estudante2")
+    println("A soma das idades é de $somadeidades.")
+    println("A altura elevada a dois é $alturaf2.")
+    println("Olá $nome2.")
+
+
+}
